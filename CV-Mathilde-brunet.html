@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cv-Mathilde-Brunet</title>
+        <!--////////////////Font//////////////////-->
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&display=swap" rel="stylesheet">
+        <!--///////////////bootsrap///////////////-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"   
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+        crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+        crossorigin="anonymous"></script>
+        <!--////////////////Anime js//////////////-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <!--//////////////CSS/////////////////////-->
+        <link rel="stylesheet" href="./CV-Mathilde-brunet.css"> 
+        <!--//////////////////JQUERY/////////////////////-->
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+        <!-- PRISM -->
+        <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.min.css" rel="stylesheet">
+    
+</head>
+<body>
+
+    <!--/////////////////////////////////Container cv///////////////////////////////////////////////////////////-->
+<main>
+    <div class="containerCv">
+        <aside class="col-xl-3 col-12">
+            <section class="col-xl-12 col-lg-4 col-md-6 col-12">
+                <img class="IMG col-md-6 col-4" src="./Image/IMG_2571.jpg" alt="photo identitée">
+    
+                <div class="titre">
+                    <h2>Brunet</h2> 
+                    <h2>Mathilde</h2> 
+                    <h3>développeur web</h3> 
+                </div>
+            </section>
+            <div id="buttons" class="col-xl-12 col-lg-8 col-md-6 col-12">
+                <div class="infoContainer">
+
+                    <button type="button" class="button" onclick="ToggleInfo('Contact');">
+                        Contact
+                    </button>
+        
+                    <div class="contact2" id="Contact">
+                        <ul>
+                            <li class="contact3 adresse">
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill Svg" viewBox="0 0 16 16">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                </svg>
+                                <p class="margin">11 rue de la paix 34130 <br> Saint-Aunes</p>
+                            </li>
+            
+                            <li class="contact3">
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                </svg>
+                                <p class="margin">06 73 83 60 38</p>
+            
+                            </li>
+            
+                            <li class="contact3">
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                                </svg>
+                                <p class="margin">brunetmathilde34@gmail.com</p>
+                            </li>
+            
+                            <li class="contact3">
+                                <svg   xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                                    <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+                                    <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                                </svg>
+                                <p class="margin">28/10/1992</p>
+            
+                            </li>
+            
+                            <li class="contact3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-car-front" viewBox="0 0 16 16">
+                                    <path d="M4 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM4.862 4.276 3.906 6.19a.51.51 0 0 0 .497.731c.91-.073 2.35-.17 3.597-.17 1.247 0 2.688.097 3.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 10.691 4H5.309a.5.5 0 0 0-.447.276Z"/>
+                                    <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM4.82 3a1.5 1.5 0 0 0-1.379.91l-.792 1.847a1.8 1.8 0 0 1-.853.904.807.807 0 0 0-.43.564L1.03 8.904a1.5 1.5 0 0 0-.03.294v.413c0 .796.62 1.448 1.408 1.484 1.555.07 3.786.155 5.592.155 1.806 0 4.037-.084 5.592-.155A1.479 1.479 0 0 0 15 9.611v-.413c0-.099-.01-.197-.03-.294l-.335-1.68a.807.807 0 0 0-.43-.563 1.807 1.807 0 0 1-.853-.904l-.792-1.848A1.5 1.5 0 0 0 11.18 3H4.82Z"/>
+                                </svg>                    
+                                <p class="margin">Permis B</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="infoContainer">
+
+                    <button type="button" class="button" onclick="ToggleInfo('Competence');">
+                        Compétences
+                    </button>
+        
+                    <div class="contact2" id="Competence">
+                        <ul>
+                            <li>Travail en équipe</li>
+                            <li>Dynamique et réactive</li>
+                            <li>Capacité d'organisation</li>
+                            <li>Créativité</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="infoContainer">
+
+                    <button type="button" class="button" onclick="ToggleInfo('Loisirs');">
+                        Loisirs
+                    </button>
+            
+                    <div class="contact2" id="Loisirs">
+                        <ul>
+                            <li>Passionné d'équitation</li>
+                            <li>Dessin</li>
+                            <li>Voyages</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <div class="experience">
+            <div class="titre2 Marg">
+                <h1>Formations et Diplomes</h1>
+            </div>
+
+            <div class="titre3">
+                <p class="titre5"><strong>2023 </strong></p>
+            </div>
+
+            <div class="texte">
+                <p>
+                    HTML - CSS - JAVASCRIPT - JQUERY - PHP <br>
+                    BOOTSTAP<br>
+                    PHOTOSHOP - ILLUSTRATOR
+                </p>
+            </div>
+
+
+            <div class="titre3">
+                <p class="titre5"><strong>2015 - BAFA </strong></p>
+            </div>
+
+            <div class="texte">
+                <p>
+                    (Brevet d'aptitude aux fonctions d'animateur en accueils
+                    collectifs de mineurs )
+                    Encadrerer des enfants et adolescents de moins de
+                    18 ans dans des centres de vacances ou de loisirs.
+                </p>
+            </div>
+
+            <div class="titre3">
+                <p class="titre5">
+                    <strong>2008 - 2011 - BEPA Activités hippique </strong>
+                </p>
+            </div>
+
+            <div class="texte">
+                <p>
+                    MFR la Gardonnenque à Vézenobres
+                    Assurer les soins quotidiens et exécuter chaque jour
+                    le travail nécessaire au maintien de la condition
+                    physique des équidés, l'entretien des installations, et
+                    l'aide à l'animation et à l'acueil du public.
+                </p>
+            </div>
+
+            <div class="separation"></div>
+
+            <div>
+                <div class="titre2">
+                    <h1>Expériences professionnelles</h1>
+                </div>
+        
+                <div class="titre3">
+                    <p class="titre5"><strong>2014 - 2022 - Animatrice enfants </strong></p>
+                </div>
+        
+                <div class="texte">
+                    <p>
+                        Aglomération Pays de l'or
+                        Organisation d'activités sportives, culturelles
+                        ou ludiques visant à développer la créativité,
+                        l'expression et la sociabilisation d'enfants de 6
+                        à llans.
+                    </p>
+                </div>
+
+                <div class="titre3">
+                    <p class="titre5"><strong>2014 - 2022 - Agent d'entretien</strong></p>
+                </div>
+        
+                <div class="texte">
+                    <p>
+                        Mairie de Saint-Aunes
+                        Entretien de locaux école primaire
+                        gestion des stocks des produits
+                        ménagers
+                        formation de nouveaux employés.
+                    </p>
+                </div>
+
+                <div class="titre3">
+                    <p class="titre5"><strong>2013-2014 - Equipière polyvalante </strong></p>
+                </div>
+        
+                <div class="texte">
+                    <p>
+                        McDonald's le cres
+                        Préparation des commandes
+                        Drive, Cuisine.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</main>    
+
+
+</body>
+<script src="./CV-Mathilde-brunet.js"></script>
+
+</html>
