@@ -74,7 +74,9 @@ section {
     
 }
 
-
+h3 {
+    font-weight: bold;
+}
 
 .contact2 {
     width: 20rem;
@@ -117,6 +119,10 @@ li p {
     align-items: center;
 
     
+}
+
+.CL {
+    color: black;
 }
 
 .adresse {
